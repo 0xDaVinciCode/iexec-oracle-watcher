@@ -27,7 +27,7 @@ The [iExec Oracle Watcher](https://oracle-watcher.vercel.app) shows all metrics 
 - [x] # of Encrypted API Keys
 - [x] Last Oracle Update
 - [x] Oracle Creator
-- [] new metric?
+- [ ] new metric?
 
 ## Doc for dev
 
