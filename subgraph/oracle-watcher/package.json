@@ -1,0 +1,19 @@
+{
+  "name": "oracle-watcher",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "create-local": "graph create bellecour/oracle-watcher --node http://127.0.0.1:8020/",
+    "remove-local": "graph remove bellecour/oracle-watcher --node http://localhost:8020/",
+    "deploy-local": "graph deploy bellecour/oracle-watcher --node http://localhost:8020/ --ipfs http://localhost:5001 --version-label 0.0.1",
+    "test": "graph test"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.33.0",
+    "@graphprotocol/graph-ts": "0.27.0"
+  },
+  "devDependencies": {
+    "matchstick-as": "0.5.0"
+  }
+}

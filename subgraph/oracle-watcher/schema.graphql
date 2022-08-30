@@ -1,0 +1,14 @@
+type Oracle @entity {
+  id: ID!
+  current: OracleValue
+  history: [OracleValue!]! @derivedFrom(field: "oracle")
+  updateCount: BigInt!
+}
+
+type OracleValue @entity {
+  id: ID!
+  oracle: Oracle!
+  value: Bytes
+  date: BigInt
+  txhash: Bytes
+}
