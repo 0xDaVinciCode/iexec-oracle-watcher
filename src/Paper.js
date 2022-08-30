@@ -6,7 +6,7 @@ import { FiSearch } from 'react-icons/fi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import TimeAgo from 'react-timeago';
 import PieChart from './PieChart';
-import { getOracles, getDeals } from './gql';
+import { getOracles, getDeals } from './getter';
 import { round, SUBGRAPH_CLIENTS } from './utils';
 import Loader from './Loader';
 
