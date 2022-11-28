@@ -20,7 +20,7 @@ export const getDeals = gql`
       orderBy: timestamp
       orderDirection: desc
       where: {
-        app: "0x05a2915f4c5a87fd3084c59e1a379449a54985f5"
+        app: "0xe720999114874c2d8972da893e96909f3a578abb"
         timestamp_lt: $timestamp
       }
     ) {
