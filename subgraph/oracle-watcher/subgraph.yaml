@@ -1,6 +1,6 @@
 specVersion: 0.0.4
 description: iExecOracles
-repository: https://github.com/graphprotocol/example-subgraphs
+repository: https://github.com/iExecBlockchainComputing/bounty-iexec-oracle-watcher
 schema:
   file: ./schema.graphql
 dataSources:
