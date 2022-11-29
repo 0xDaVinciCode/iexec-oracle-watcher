@@ -1,16 +1,16 @@
 specVersion: 0.0.4
 description: iExecOracles
-repository: https://github.com/graphprotocol/example-subgraphs
+repository: https://github.com/iExecBlockchainComputing/bounty-iexec-oracle-watcher
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: GenericOracle
+    name: VerifiedResultOracle
     network: bellecour
     source:
-      address: '0x456891C78077d31F70Ca027a46D68F84a2b814D4'
+      address: "0x36da71ccad7a67053f0a4d9d5f55b725c9a25a3e"
       abi: GenericOracle
-      startBlock: 16774861
+      startBlock: 19365010
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
